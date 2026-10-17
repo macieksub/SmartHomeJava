@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-// Klasa wynikowa (Product) budowana krok po kroku przez SceneBuilder.
+// Klasa wynikowa budowana krok po kroku przez SceneBuilder.
 public class Scene {
     private final String name;
     private final List<String> actions;

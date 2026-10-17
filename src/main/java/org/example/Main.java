@@ -14,8 +14,8 @@ import org.example.singleton.SmartHomeHub;
 public class Main {
     public static void main(String[] args) {
         System.out.println("======================================================================");
-        System.out.println("   PROJEKT: SYSTEM INTELIGENTNEGO DOMU (SMART HOME SIMULATOR)");
-        System.out.println("   LAB 1: Wzorce konstrukcyjne i strukturalne (7 wzorców projektowych)");
+        System.out.println("   PROJEKT: SYSTEM INTELIGENTNEGO DOMU");
+        System.out.println("   LAB 1: Wzorce konstrukcyjne i strukturalne");
         System.out.println("======================================================================\n");
 
         // -------------------------------------------------------------------
@@ -36,7 +36,7 @@ public class Main {
         // 2. WZORZEC FACTORY (SIMPLE FACTORY)
         // -------------------------------------------------------------------
         // Tydzień 1, Lab 1 - Stosowanie konstrukcyjnych i strukturalnych wzorców projektowych. Wzorzec Factory (Simple Factory).
-        // Fabryka DeviceFactory tworzy obiekty oświetlenia, termostatu i telewizora bez ujawniania logiki ich kreacji.
+        // Fabryka DeviceFactory tworzy obiekty oświetlenia, termostatu i telewizora bez ujawniania logiki ich tworzenia.
         System.out.println(">>> 2. TEST WZORCA: FACTORY (DeviceFactory) <<<");
         DeviceFactory factory = new DeviceFactory();
         SmartDevice livingRoomLight = factory.createDevice("LIGHT");

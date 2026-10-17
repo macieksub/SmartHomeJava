@@ -4,14 +4,11 @@ import java.util.ArrayList;
 import java.util.List;
 
 // Tydzień 1, Lab 1 - Stosowanie konstrukcyjnych i strukturalnych wzorców projektowych. Wzorzec Builder.
-// Wzorzec Builder umożliwia elastyczne, czytelne i wieloetapowe tworzenie obiektu sceny (Scene),
+// Wzorzec Builder umożliwia elastyczne, czytelne i wieloetapowe tworzenie obiektu sceny,
 // oddzielając specyfikację poszczególnych czynności od gotowej postaci gotowego scenariusza.
 public class SceneBuilder {
     private String name = "Domyślna Scena";
     private final List<String> actions = new ArrayList<>();
-
-    public SceneBuilder() {
-    }
 
     public SceneBuilder(String name) {
         this.name = name;
